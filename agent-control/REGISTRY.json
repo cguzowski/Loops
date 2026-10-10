@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "revision": 4,
+  "policy_revision": 4,
+  "setup_complete": false,
+  "protected_source_paths": [
+    "AGENTS.md",
+    "AGENTS.override.md",
+    ".codex/"
+  ],
+  "agents": {},
+  "contracts": {},
+  "tasks": {},
+  "verification_profiles": {},
+  "work_items": {},
+  "jira": {
+    "enabled": false,
+    "site_url": null,
+    "project_keys": [],
+    "board_columns": [
+      "Archive",
+      "Backlog",
+      "To Do",
+      "In Progress",
+      "Blocked",
+      "QA",
+      "Done"
+    ],
+    "status_ids": {},
+    "user_account_ids": [],
+    "master_account_id": null,
+    "integration_status": "not_installed",
+    "sync_mode": "session_boundaries",
+    "sync_triggers": [
+      "session_start",
+      "milestone",
+      "inactivity"
+    ],
+    "inactivity_timeout_seconds": 9000
+  }
+}
